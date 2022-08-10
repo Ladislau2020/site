@@ -18,8 +18,14 @@
     /* Fonts */
     --ff-styled: 'Tangerine';
     --ff-main: 'Montserrat';
-    --ff-nav: 'Cormorant';
+    --ff-formal: 'Cormorant';
+    --ff-nav: 'Roboto';
 
+    --fs-nav: 57.74px;
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
 }
 
 /* General Style */
@@ -28,3 +34,49 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* Styling the navigation part in a general way like logo and the others nav links */
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8.41379px 0px 0px;
+    gap: 602.1px;
+
+    position: absolute;
+    width: 1464px;
+    height: 148.63px;
+    left: 24px;
+    top: -3.65px;
+}
+
+/* Giving style to the nav links specifically */
+.nav .lista-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8rem;
+
+    width: 721.69px;
+    height: 53.61px;
+}
+
+/* I don't know yet if i will keep this code below bc i don't see the difference */
+.item-lista li{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.item-lista{
+    font-family: var(--ff-nav);
+    font-size: var(--fs-h3);
+    list-style: none;
+}
+
+.item-lista a{
+    text-decoration: none;
+    color: inherit;
+}
