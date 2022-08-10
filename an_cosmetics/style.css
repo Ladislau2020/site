@@ -3,3 +3,27 @@
     padding: 0;
 }
 
+/* Variables */
+
+:root {
+    /* Colors */
+    --main-color: #CC9426;
+    --white-main-color: #EFDFBD;
+    --dark-main-color: #80590B;
+    --black: #000000F0;
+    --accent-lilas: #9112CC;
+    --accent-secondary-lilas: #9112CCC7;
+    --accent-verde: #204231;
+
+    /* Fonts */
+    --ff-styled: 'Tangerine';
+    --ff-main: 'Montserrat';
+    --ff-nav: 'Cormorant';
+
+}
+
+/* General Style */
+
+html {
+    scroll-behavior: smooth;
+}
