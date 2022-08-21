@@ -43,7 +43,9 @@ html {
     align-items: center;
     padding: 8.41379px 0px 0px;
     gap: 602.1px;
+}
 
+nav.nav {
     position: absolute;
     width: 1464px;
     height: 148.63px;
@@ -56,7 +58,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 8rem;
 
@@ -116,7 +118,6 @@ html {
     padding: 0px;
     gap: 67.48px;
     
-
 .hero-more {
     display: flex;
     flex-direction: column;
