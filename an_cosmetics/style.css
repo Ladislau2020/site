@@ -85,7 +85,7 @@ nav.nav {
     color: inherit;
 }
 
-/* I will start with thye hero section */
+/* Starting the hero section */
 
 .hero-section img{
     width: 707.89px;
@@ -104,12 +104,12 @@ nav.nav {
     height: 566.6px;
 }
 
-/* .hero-section .hero-item{
+.hero-section .hero-item{
     flex: none;
     order: 0;
     flex-grow: 0;
     align-items: center;
-} */
+}
 
 .hero-section .hero-item{
     display: flex;
@@ -117,7 +117,8 @@ nav.nav {
     align-items: center;
     padding: 0px;
     gap: 67.48px;
-    
+}
+
 .hero-more {
     display: flex;
     flex-direction: column;
@@ -127,4 +128,4 @@ nav.nav {
 
     width: 797.89px;
     height: 566.6px;
-}
+} 
