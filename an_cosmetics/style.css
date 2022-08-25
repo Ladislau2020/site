@@ -42,14 +42,14 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 0.526rem 0rem 0rem;
-    gap: 37.631rem;
+    gap: 40.631rem;
 }
 
 nav.nav {
     position: absolute;
     width: 91.5rem;
     height: 9.289rem;
-    left: 1.5rem;
+    left: 2.5rem;
     top: -0.228rem;
 }
 
@@ -101,7 +101,7 @@ nav.nav {
     gap: 3.597rem;
     margin-left: 6.25rem;
     margin-top: 6.25rem;
-    width: 91.458rem;
+    width: 81.458rem;
     height: 35.413rem;
 }
 
@@ -123,11 +123,12 @@ nav.nav {
 .hero-more {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0;
     gap: 4.218rem;
     
 
-    width: 49.868rem;
+    width: 29.868rem;
     height: 35.413rem;
 } 
