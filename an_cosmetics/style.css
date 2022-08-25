@@ -21,7 +21,7 @@
     --ff-formal: 'Cormorant';
     --ff-nav: 'Roboto';
 
-    --fs-nav: 57.74px;
+    --fs-nav: 3.609rem;
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -41,16 +41,16 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8.41379px 0px 0px;
-    gap: 602.1px;
+    padding: 0.526rem 0rem 0rem;
+    gap: 37.631rem;
 }
 
 nav.nav {
     position: absolute;
-    width: 1464px;
-    height: 148.63px;
-    left: 24px;
-    top: -3.65px;
+    width: 91.5rem;
+    height: 9.289rem;
+    left: 1.5rem;
+    top: -0.228rem;
 }
 
 /* Giving style to the nav links specifically */
@@ -59,11 +59,12 @@ nav.nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 8rem;
 
-    width: 721.69px;
-    height: 53.61px;
+
+    width: 45.106rem;
+    height: 3.351rem;
 }
 
 /* I don't know yet if i will keep this code below bc i don't see the difference */
@@ -88,20 +89,20 @@ nav.nav {
 /* Starting the hero section */
 
 .hero-section img{
-    width: 707.89px;
-    height: 639.54px;
+    width: 44.243rem;
+    height: 39.971rem;
 }
 
 .hero-section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 57.55px;
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 1463.33px;
-    height: 566.6px;
+    padding: 0;
+    gap: 3.597rem;
+    margin-left: 6.25rem;
+    margin-top: 6.25rem;
+    width: 91.458rem;
+    height: 35.413rem;
 }
 
 .hero-section .hero-item{
@@ -115,17 +116,18 @@ nav.nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    gap: 67.48px;
+    padding: 0;
+    gap: 4.218rem;
 }
 
 .hero-more {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    gap: 67.48px;
+    padding: 0;
+    gap: 4.218rem;
+    
 
-    width: 797.89px;
-    height: 566.6px;
+    width: 49.868rem;
+    height: 35.413rem;
 } 
