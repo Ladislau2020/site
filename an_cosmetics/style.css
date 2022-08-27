@@ -89,8 +89,8 @@ nav.nav {
 /* Starting the hero section */
 
 .hero-section img{
-    width: 44.243rem;
-    height: 39.971rem;
+    width: 40.243rem;
+    /* height: 35.971rem; */
 }
 
 .hero-section {
@@ -100,7 +100,7 @@ nav.nav {
     padding: 0;
     gap: 3.597rem;
     margin-left: 6.25rem;
-    margin-top: 6.25rem;
+    margin-top: 10.25rem;
     width: 81.458rem;
     height: 35.413rem;
 }
@@ -129,6 +129,64 @@ nav.nav {
     gap: 4.218rem;
     
 
-    width: 29.868rem;
+    width: 39.868rem;
     height: 35.413rem;
 } 
+
+/* Styling the text from the hero Section */
+/* Daqui em diante ainda está em px */
+
+.an-cosmetics {
+    font-family: var(--ff-styled);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 183.878px;
+    line-height: 144px;
+    color: var(--main-color);
+}
+
+.texto-impacto h3 {
+    font-family: var(--ff-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40.5513px;
+    line-height: 70px;
+    margin-top: 1.5rem;
+    color: var(--dark-main-color);
+}
+
+/* Stylizando os botões
+    Acho que aqui vai pegar fogo
+*/
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 57.55px;
+    /* width: 797.89px; */
+}
+
+.prymary-button {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
