@@ -1,0 +1,23 @@
+body {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+/* Ajuste nos links */
+li a{
+    text-decoration: none;
+    list-style: none;
+}
+
+li a:hover{
+    color: #fff;
+}
+
+li {
+    margin-right: 2.55rem;
+}
+
+
+
